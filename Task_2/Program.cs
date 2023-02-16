@@ -12,15 +12,23 @@ int.TryParse(Console.ReadLine()!, out number1);
 Console.Write($"Введите 2 число: ");
 int.TryParse(Console.ReadLine()!, out number2);
 int max;
+int min;
 if (number1 > number2)
 {
     Console.Write(max = number1);
+    Console.WriteLine($" Большее ");
+    Console.Write(min = number2);
+    Console.Write($" Меньшее ");
 }
 if (number1 < number2)
 {
     Console.Write(max = number2);
+    Console.WriteLine($" Большее ");
+    Console.Write(min = number1);
+    Console.Write($" Меньшее ");
 }
 if (number1 == number2)
 {
     Console.Write(number1 = number2);
+    Console.Write($" Числа равны ");
 }
