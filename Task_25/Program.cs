@@ -13,3 +13,12 @@ Console.Write($"Введите B число: ");
 int.TryParse(Console.ReadLine()!, out numberB);
 
 Console.WriteLine("число A в степени B = " + Math.Pow(numberA, numberB));
+
+/*if (numberB > times)
+{
+    result = numberA * numberA;
+}
+else
+{
+    Console.WriteLine("число A в степени B = " + result);
+}*/
