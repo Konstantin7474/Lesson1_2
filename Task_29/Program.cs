@@ -21,11 +21,11 @@ Console.Write(array);*/
 
 class ArrayDemo {
     static void Main() {
-        int[] sample = new int[8];
+        int[] array = new int[8];
         int i;
         for(i = 0; i < 8; i = i+1)
-            sample[i] = i;
+            array[i] = i;
         for(i = 0; i < 8; i = i+1)
-            Console.Write( sample[i]);
+            Console.Write( array[i]);
     }
 }
