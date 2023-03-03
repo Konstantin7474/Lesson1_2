@@ -6,11 +6,11 @@
 23432 -> да*/
 
  
-int  GN;
-int N = GN;
+
+int N ;
 int P = 0;
 Console.WriteLine($"Введите число: ");
-int.TryParse(Console.ReadLine()!, out GN);
+int.TryParse(Console.ReadLine()!, out N);
 
 string str_N = N.ToString();
 
@@ -24,7 +24,7 @@ while(N > 0)
     N = N / 10;
 
 }
-if(P == GN)
+if(P == N)
 {
     Console.Write($"Полиндром ");
 }
